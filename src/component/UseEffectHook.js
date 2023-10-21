@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const UseEffectHook = () => {
-    const [count, setCount] = useState(10);
+    const [count, setCount] = useState(0);
     useEffect(() => {
         // Update the document title using the browser API
         document.title = `You clicked ${count} times`;
